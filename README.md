@@ -1,6 +1,4 @@
-# spiegel_crawler
-A program that crawls https://www.spiegel.de/international/ every 15 minutes and stores news-entries into a sqlite database.
-
+# Spiegel International Web Crawler
 
 This program crawls news-entries from the URL https://www.spiegel.de/international/ and stores it in a sqlite database every 15 minutes.
 
@@ -34,7 +32,7 @@ Some modules are already part of the python install package. Other modules can b
 
 
 ## Installation:
-1. Click on the Code button on main project page on GitHub and download zip file.
+1. Click on the [Code](https://pages.github.com/) button on main project page on GitHub and download zip file.
 2. Extract the downloaded zip file to a preferred location on your computer.
 3. Open command console/prompt within the extracted folder and pip install modules.txt as:
 
@@ -46,7 +44,7 @@ Some modules are already part of the python install package. Other modules can b
    `>>> python spiegel_crawler.py`  
    `>>> python3 spiegel_crawler.py`
 
-2. To view a dataframe of the database run:
+2. To view a dataframe of the database, run:
 
    `>>> python view_database.py`  
    `>>> python3 view_database.py`
