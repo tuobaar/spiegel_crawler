@@ -32,7 +32,7 @@ Some modules are already part of the python install package. Other modules can b
 
 
 ## Installation:
-1. Click on the [Code](https://pages.github.com/) button on main project page on GitHub and download zip file.
+1. Click on the [Code](https://github.com/tuobaar/spiegel_crawler/archive/refs/heads/main.zip) button on main project page on GitHub and download zip file.
 2. Extract the downloaded zip file to a preferred location on your computer.
 3. Open command console/prompt within the extracted folder and pip install modules.txt as:
 
