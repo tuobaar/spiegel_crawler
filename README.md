@@ -37,13 +37,16 @@ Some modules are already part of the python install package. Other modules can b
 1. Click on the Code button on main project page on GitHub and download zip file.
 2. Extract the downloaded zip file to a preferred location on your computer.
 3. Open command console/prompt within the extracted folder and pip install modules.txt as:
-   `\>>> pip install --requirements modules.txt`
+
+   \`>>> pip install --requirements modules.txt`
 
 ## How to use.
 1. The program can be launched by entering the following in a command console/prompt:
-`\>>> python spiegel_crawler.py`
-`\>>> python3 spiegel_crawler.py`
+
+\`>>> python spiegel_crawler.py`
+
+\`>>> python3 spiegel_crawler.py`
 
 2. To view a dataframe of the database run:
-`\>>> python view_database.py`
-`\>>> python3 view_database.py`
+\`>>> python view_database.py`
+\`>>> python3 view_database.py`
