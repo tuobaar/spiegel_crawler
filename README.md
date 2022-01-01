@@ -47,5 +47,6 @@ Some modules are already part of the python install package. Other modules can b
 `>>> python3 spiegel_crawler.py`
 
 2. To view a dataframe of the database run:
-`>>> python view_database.py`\
+
+`>>> python view_database.py`  
 `>>> python3 view_database.py`
