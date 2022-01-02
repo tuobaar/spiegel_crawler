@@ -15,7 +15,7 @@ This program crawls news-entries from the URL https://www.spiegel.de/internation
 - bs4 (beautifulsoup4)
 - pandas
 
-Some modules are already part of the python install package. Other modules/packages can be installed through `pip install package_name` or `pip3 install package_name` .
+Some modules are already part of the python3 install package. Other modules/packages can be installed through `pip install package_name` or `pip3 install package_name` .
 
 ### Database
 The sqlite database is created the first time the program is executed and skipped on subsequent program executions.   
