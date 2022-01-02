@@ -21,13 +21,12 @@ Some modules are already part of the python install package. Other modules can b
 ## Program features:
 
 1. Crawls url every 15 minutes.
-2. Crawls multiple pages if instructed by user. When the program starts, the user is given an option to crawl all 500 pages of the URL https://www.spiegel.de/international/pXXX/ or only page 1 of same URL https://www.spiegel.de/international/pXXX/.
+2. Crawls multiple pages if instructed by user. When the program starts, the user is given an option to either crawl all 500 pages of the URL https://www.spiegel.de/international/pXXX/ or only page 1 of same URL.
 3. Handles requests errors.
-4. Handles internet/network connection errors. The program keeps running waiting for the
-   connection to get fixed, and continues afterwards.
+4. Handles internet/network disconnection errors during requests to webpages. The program keeps running waiting for the connection to get fixed, and continues afterwards.
 5. Handles duplicate entries.
 6. Handles missing data.
-7. Program informs the user about changes in HTML tags and CSS classes on the URL/Webpage.
+7. Program informs the user about changes in HTML tags and CSS classes on the URL/Webpage. However this may not happen, as the HTML tags and CSS classes seem permanent and consistent so far.
 8. On program termination, the first 5 latest new-entries are displayed.
 
 
