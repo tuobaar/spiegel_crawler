@@ -19,7 +19,8 @@ Some modules are already part of the python3 install package. Other modules/pack
 
 ### Database
 The sqlite database is created the first time the program is executed and skipped on subsequent program executions.   
-The database contains a table 'news_archive.db' with the following columns:   
+The database contains a table 'news_archive.db' with the following columns:  
+
 `Title TEXT UNIQUE, Sub_Title TEXT, Abstract TEXT, Download_Time DATETIME, Update_Time DATETIME` 
 
 ## Program features:
@@ -27,7 +28,7 @@ The database contains a table 'news_archive.db' with the following columns:
 1. Crawls url every 15 minutes.
 2. Crawls multiple pages if instructed by user. When the program starts, the user is given an option to either crawl all 500 pages of the URL https://www.spiegel.de/international/p{page_number}/ or only page 1 of same URL.
 3. Handles requests errors.
-4. Handles internet/network disconnection errors during requests to webpages. The program keeps running waiting for the connection to get fixed, and continues afterwards.
+4. Handles internet/network disconnection errors during requests to webpages. The program keeps running waiting for the connection to get fixed, and continues afterwards. To see this feature instantly, temporarily disconnect the internet connection on the device before running the program. Then reconnect afterwards to continue crawling data.
 5. Handles duplicate entries.
 6. Handles missing data.
 7. Program informs the user about changes in HTML tags and CSS classes on the URL/Webpage. However this may not happen, as the HTML tags and CSS classes seem permanent and consistent so far.
