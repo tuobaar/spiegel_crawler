@@ -40,9 +40,7 @@ The database contains a table 'news_archive.db' with the following columns:
 2. Extract the downloaded zip file to a preferred location on your computer.
 3. Open command console/prompt within the extracted folder and install all packages in `modules.txt` using pip as follows:
 
-   `>>> pip install --requirements modules.txt`  
    `>>> pip install -r modules.txt`   
-   `>>> pip3 install --requirements modules.txt`  
    `>>> pip3 install -r modules.txt`
    
 
