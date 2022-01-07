@@ -38,7 +38,7 @@ The database contains a table 'news_archive.db' with the following columns:
 ## Installation:
 1. Click on the [Code](https://github.com/tuobaar/spiegel_crawler/archive/refs/heads/main.zip) button on main project page on GitHub and download zip file.
 2. Extract the downloaded zip file to a preferred location on your computer.
-3. Open `command console/prompt` or `terminal`, navigate to the location of the extracted folder and install all packages in `modules.txt` using pip as follows:
+3. Open `command console/prompt` or `terminal`, navigate to the location of the extracted folder/files and install all packages in `modules.txt` using pip as follows:
 
    `>>> pip install -r modules.txt`   
    `>>> pip3 install -r modules.txt`
