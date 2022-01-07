@@ -1,6 +1,6 @@
 # Spiegel International Web Crawler
 
-This program crawls news-entries from the URL https://www.spiegel.de/international/ and stores it in a sqlite database every 15 minutes.
+This program crawls news-entries from the URL https://www.spiegel.de/international/ and stores them in a sqlite database every 15 minutes.
 
 
 ## Technologies and modules:
@@ -31,21 +31,21 @@ The database contains a table 'news_archive.db' with the following columns:
 4. Handles internet/network disconnection errors during requests to webpages. The program keeps running waiting for the connection to get fixed, and continues afterwards. To see this feature instantly, temporarily disconnect the internet connection on the device before running the program. Then reconnect afterwards to continue crawling data.
 5. Handles duplicate entries.
 6. Handles missing data.
-7. Program informs the user about changes in HTML tags and CSS classes on the URL/Webpage. However this may not happen, as the HTML tags and CSS classes seem permanent and consistent so far.
-8. On program termination, the first 5 latest new-entries are displayed.
+7. Program informs the user about changes in HTML tags and CSS classes on the URL/Webpage. However, this may not happen, as the HTML tags and CSS classes seem permanent and consistent so far.
+8. When the program is terminated, the first 5 latest news-entries are displayed.
 
 
 ## Installation:
 1. Click on the [Code](https://github.com/tuobaar/spiegel_crawler/archive/refs/heads/main.zip) button on main project page on GitHub and download zip file.
 2. Extract the downloaded zip file to a preferred location on your computer.
-3. Open command console/prompt within the extracted folder and install all packages in `modules.txt` using pip as follows:
+3. Open `command console/prompt` or `terminal', navigate to the location of the extracted folder and install all packages in `modules.txt` using pip as follows:
 
    `>>> pip install -r modules.txt`   
    `>>> pip3 install -r modules.txt`
    
 
 ## How to use:
-1. The program can be launched by entering the following in a command console/prompt:
+1. The program can be launched by entering the following in a `command console/prompt` or `terminal`:
 
    `>>> python spiegel_crawler.py`  
    `>>> python3 spiegel_crawler.py`
