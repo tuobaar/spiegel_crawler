@@ -98,7 +98,7 @@ def display_latest_entries():
 
         my_cursor = connection.cursor()
 
-        # Printing last 5 rows from 'news_archive.db' database
+        # Printing the last 5 rows from 'news_archive.db' database
         rows = my_cursor.execute("SELECT * FROM news_archive;").fetchall()
         print("\n\nThe latest news-entries are: \n")
         for row in rows[-5:]:
