@@ -19,7 +19,7 @@ Some modules are already part of the python3 install package. Other modules/pack
 
 ### Database
 The sqlite database is created the first time the program is executed and skipped on subsequent program executions.   
-The database contains a table 'news_archive.db' with the following columns:  
+The database 'news_archive.db' contains a table 'news_archive'  with the following columns:  
 
 `Title TEXT UNIQUE, Sub_Title TEXT, Abstract TEXT, Download_Time DATETIME, Update_Time DATETIME` 
 
